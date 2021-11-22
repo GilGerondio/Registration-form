@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="registration-form.css">
+    </head>
+    <body>
+        <br><center><h1 style="font-family:verdana;">Registration Form</h1></center>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Register</legend>
+            
+            <label for="first-name">First name:</label>
+              <input type="text" id=first-name>
+            
+              <label for="middle-name">Middle name:</label>
+              <input type="text" id=middle-name>
+            
+              <label for="last-name">Last name:</label>
+              <input type="text" id=last-name>  
+            
+            <div class="checks">
+                <label for="gen">Gender:</label>
+                <input type="radio" id=gen> Male<input type="radio">Female 
+            </div>
+
+              <label for="email">Email:</label>
+              <input type="email" id=email>  
+            
+              <label for="home-add">Home Address:</label>
+              <textarea id=home-add></textarea>
+            
+            <div class="checks">  
+              <label for="hobs">Hobbies:</label>
+              <input type="checkbox" id=hobs>Computer Games
+              <input type="checkbox" id=hobs>Playing music instruments
+              <input type="checkbox" id=hobs>Cooking
+              <input type="checkbox" id=hobs>Drawing
+            </div>
+            
+            <div class="checks"> 
+              <label for="color">Favorite Color:</label>
+              <select name="Color" id=color>
+                <option value"Red">Red</option>
+                <option value"Green">Green</option>
+                <option value"Blue">Blue</option>
+              </select>
+            </div>
+              
+              <label for="opinion">Say something about yourself:</label>
+              <textarea id=opinion></textarea>
+
+        <input type="submit" value="Submit"> <input type="reset" value="Clear">
+    </form></fieldset>
+  </body>
+</html>   
